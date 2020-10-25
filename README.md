@@ -1,5 +1,8 @@
 # Figuras Geométricas
-Estan inicializadas algunas figuras:
-- Cuadrado, Rectangulo y Circulo
+Hemos implementado clases nuevas, dejando las que ya teníamos antes:
 
-Falta implementar varias cosas.
+- Circle
+- Rectangle
+- Rhombus
+- Square
+- Triangle
