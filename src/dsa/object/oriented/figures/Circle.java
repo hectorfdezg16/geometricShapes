@@ -7,6 +7,7 @@ public class Circle extends Figure {
     private double r;
 
     //Generem el constructor
+    //amb el nostre radi que després utilitzarem en el mètode àrea
     public Circle(double r) {
         this.r = r;
     }
@@ -14,11 +15,11 @@ public class Circle extends Figure {
     // aqui implementem amb generate to implement de la super clase que hereta Circle
     //es un contracte si tu vols hereta de figura necessites respectar el meu contracte
     //implementar tots els metodes de la clase abstracta
+    //aquest es un mètode polimòrfic
     @Override
     public double area() {
         //esta operacion pi*r^2 hay que revisarla ya que nos la marca mal
-        //return Math.PI= Math.pow(this.r,2);
-        return 1;
+        return Math.PI * Math.pow(this.r,2);
     }
 
     //ara reimplementem una altre clase anomenada objecte to string per donar la resposta
